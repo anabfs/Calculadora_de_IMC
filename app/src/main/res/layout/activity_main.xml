@@ -18,23 +18,23 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editPeso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Digite seu peso"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editAltura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="Digite sua altura"
-        android:inputType="number" />
+        android:inputType="numberDecimal" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="RESULTADO:"
@@ -45,6 +45,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="calcularIMC"
         android:text="Calcular"
         android:textSize="20sp" />
 
